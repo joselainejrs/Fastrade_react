@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.localicate {
+    width: 100px;
+    margin-right: 50px;
+   
+}
+
+.logo {
+    width: 250px;
+    height: 50px;
+}
+.contato{
+    font-size: 20px;
+    text-align: left;
+}
+
+.localizacao {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.todo {
+    width: 1200px;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
