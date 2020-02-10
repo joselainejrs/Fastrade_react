@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+:root{
+    --vinho:#941B0C;
+    --amaelo:#DAA520;
+    --peto:#1D1E18;
+    --marrom_escuro:#1D1E18;
+    --verde:#2E2422;
+    --laranja:#BC3908;
+    --branco:#FFFFFF;
+}
+.conjunto_perfilp{
+	width: 950px;
+	margin: auto;
+}
+.barra{
+	width:200px;
+	height:416px;
+	border: 1.5px solid #BC3908;
+	border-radius: 6px;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	box-sizing: border-box;	
+	margin-top: 70px; 
+	margin-bottom: 70px;    
+}
+.opcoes{
+	font-family:'Dosis', sans-serif;
+	font-size: 20px;
+	padding: 5px;
+}
+a.opcoes{
+	text-decoration: none;
+	color: #BC3908;
+}
+a.opcoes:hover{
+	background-color:#BC3908;
+	color: white;
+}
+
+/* tabela */
+
+
+
+.venda_produto{
+	width: 50px;
+  }
+  
+  .main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px 0;
+  }
+  
+  .content__title {
+	text-align: center;
+	font-size:20px;
+	font-family: 'Dosis', sans-serif;
+	font-weight: bold;
+	color: #BC3908;
+	padding-bottom: 10px;
+	margin: 0 5%;
+	border-top-right-radius: 6px;
+	border-bottom-width: 1px;
+	border-color: #BC3908;
+  }
+  .produt{
+	width: 800px;
+	position: relative;
+	left: 180px;
+	bottom: 522px;
+  }
+  
+  .product__item {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 0 5%;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-style: solid;
+	border-radius: 6px;
+	border-color: #BC3908;
+  }
+  
+  .product__img {
+	width: 80px;
+	height: 60px;
+  }
+  
+  .product-info {
+	display: flex;
+	font-family: 'Dosis', sans-serif;
+	flex-direction: column;
+	justify-content: center;
+  }
+  
+  .product-info__name {
+	font-size: 1rem;
+	color: #BC3908;
+	font-weight: bold;
+  }
+  
+  .product-info__description {
+	font-size: 0.8rem;
+	color: #BC3908;
+  }
+  
+  .product-info__price {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-bottom: 30px;
+	color:#BC3908;
+  }
+  
+  .button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 120px;
+	height: 40px;
+	font-size: 0.7rem;
+	text-transform: uppercase;
+	color: #FFF;
+	background-color: #FE642E;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+ 
+@media(max-width:1169px){
+
+	.conjunto_perfilp{
+		width: 500px;
+		margin: auto;
+	}
+}
+
+@media(max-width:768px){
+	.conjunto_perfilp{
+		width: 300px;
+		margin: auto;	
+}
+
+
+}

@@ -3,107 +3,144 @@
 * {
     margin: 0;
     padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-.container_oferta{
-	width: 1200px;
-  	margin: auto;
-}
 .tod_home{
-    background-image: url(../img/banner_home.jpg);
+    background-image: linear-gradient(rgba(218, 165, 32, 0.16), rgba(218, 165, 32, 0.16)),url(../img/uva.png);
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
     width: 100%;
-    height: 750px;
-    margin: auto;   
+    height: 498px; 
 }
-.banner_home{
-    width: 100%;   
-}
-.estrut_frase{
-    width: 800px;
+
+.home_card_pro {
+    background-color: white;
+    padding: 40px 40px;
+    width:600px;
+    height: 130px;
+    border-radius: 4px;
+    -webkit-box-shadow: 5px 5px 30px -15px rgba(204, 204, 204, 1);
+    -moz-box-shadow: 5px 5px 30px -15px rgba(204, 204, 204, 1);
+    box-shadow: 5px 5px 30px -15px rgba(204, 204, 204, 1);
+    margin: auto;
     position: relative;
-    top: 100px;
-    left: 45px;
+    bottom: 60px;
+
+}
+.conjunto_color{
+    background-color: #f5f5f5;
+    /* background-color: rgba(218, 165, 32, 0.78); */
+    height: 700px;
 }
 .frase_dicas{
-    font-family: 'Roboto', sans-serif;
-    color: #BC3908;
-    font-size: 50px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-.botao_dicas{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 30px;
+    margin-bottom: 100px;
+    font-weight: bold;
+    color:#BC3908;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+
+}
+.conju_frase{
+    display: flex;
+    align-content: space-between;
+    margin: auto;
+    width: 1200px;  
+    margin-top: 40px;
+}
+.img_1home{
+    width: 600px;
+    margin-right: 200px;
+}
+.gl.frase{
+    width: 600px;
+    text-align: center;
+}
+.Frase_fastrade{
+    color:#BC3908;
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    /* text-align: center; */
+    padding-bottom: 20px;
+    margin-top: 80px;
+}
+.ref_home{
+    width: 500px;
+    text-align: justify;
+}
+.frase_referencia_home{
+    font-family: 'Roboto', sans-serif;
     color: black;
-    border: solid 2px;
-    border-radius: 9px;
-    cursor: pointer;
-    text-decoration: none;
-    padding: 2px;
-    align-items: center;
-    margin-left: 160px;
+    font-size: 20px;
+}
+
+.frase_home{
+    margin-top: 60px;   
+}
+.frase_destaque{
+    display: flex;
     
 }
-.img_frase{
-    align-items: center;
-    width: 500px;
-}
-.oferte{
+.fruta_destaque{
     font-family: 'Dosis', sans-serif;
-    font-size: 45px;
+    font-size: 20px;
     font-weight: bold;
-    border-bottom: 3px solid #BC3908;
-    width: 400px;
-    margin: auto;
+    color:#BC3908;
     text-align: center;
-    margin-top: 100px; 
+    
 }
-.conteudo{
-    display: flex;
-	align-content: center;
-    flex-wrap: wrap;
-    margin-top:50px;
-	margin-bottom: 50px;
-}
-.img_home{
-    margin-top: 15px;   
-}
-.alimentos{
+
+.container_cadastro3 {
+    width: 580px;
+    height: 60px;
+    background-color: white;
+    padding: 80px 40px;
+    border-radius: 4px;
+    -webkit-box-shadow: 5px 5px 30px -20px rgba(204, 204, 204, 1);
+    -moz-box-shadow: 5px 5px 30px -20px rgba(204, 204, 204, 1);
+    box-shadow: 5px 5px 30px -20px rgba(204, 204, 204, 1);
+    border: 1px dotted ;
     margin: auto;
-    margin-bottom: 100px;
-    width: 220px;
-    margin-top: 10px;
-	background-color: white;
+    position: relative;
+    bottom: 80px;
 }
-.alimentos:hover{
-    border: 3px solid;
-    border-bottom-color: #BC3908;
-    border-right-color: #BC3908;  
-    border-left-color: #f2f2f2;
-    border-top-color: #f2f2f2;
-}
-.descricao{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-	text-align: center;
-}
-.vermelho{
-    color: #941B0C;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+.destaque_home{
+    font-family: 'Dosis', sans-serif;
     text-align: center;
+    margin-bottom:5px;
+    font-weight: bold;
+    color:#BC3908;
+    position: relative;
+    bottom: 40px;
+    font-size:35px ;
+}
+.destaque_home2{
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    margin-bottom:5px;
+    font-weight: bold;
+    position: relative;
+    font-size:15px ;
+    bottom: 30px;
 }
 
 .tod_informativo{
     display: flex;   
     margin: auto;
     width: 800px;    
+    margin-top:75px ;
     margin-bottom:50px ;
-   
 }
+
+
+/* */
 .dica_informativa{
     width: 350px;  
     margin: 20px;
@@ -125,7 +162,7 @@
 }
 .informativo{
     font-family: 'Dosis', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     color: #DAA520;
@@ -136,7 +173,7 @@
 }
 .informativo2{
     font-family: 'Dosis', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     color: #941B0C;
@@ -147,12 +184,10 @@
 }
 .caixa_informativa {
     display: flex;  
-    width: 300px;
-    padding: 3px;
    
 }
 .img_informativa{  
-    width: 40px; 
+    width: 53px; 
     padding: 10px;  
 }
 .frase_informativa{
@@ -181,240 +216,218 @@
 
 p.frase_destaque{
     text-align: center; 
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Dosis', sans-serif;
 }
-.espaco_comentario{
-    width: 1200px; 
-    margin-bottom: 100px;   
+.venda{
+    width:400px; 
 }
-.titulo_comentario{
-    margin-top: 100px;      
+.img_vendas{
+    margin: auto;
+    width: 450px;
 }
-.frase_comentario{
-    font-family: 'Dosis', sans-serif;
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    border-bottom: 3px solid #BC3908;
-    width: 800px;
-    margin: auto; 
-    margin-bottom: 50px;
+
+/* card */
+ .card_home{
+    display: flex;
+    margin: auto;
+    width: 600px;
+    margin-top:100px;
+    margin-bottom: 100px;
 }
-.tod_comentario{
-    display: flex; 
-    margin: auto; 
+.snip1401 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  .snip1401 img {
+    max-width: 100%;
+    backface-visibility: hidden;
+  }
+  /* movimentação */
+  .snip1401 figcaption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    opacity: 1;
+    padding: 30px 0 30px 10px;
+    background-color: #ffffff;
+    width: 40%;
+    -webkit-transform: translateX(150%);
+    transform: translateX(150%);
+  }
+  .snip1401 figcaption:before {
+    position:  absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 100%;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 120px 120px 120px 0;
+  border-color: transparent #ffffff transparent transparent;
 }
-.img_comentario{
-    margin-top: 50px;
+.snip1401:after {
+  position: absolute;
+  bottom: 50%;
+  right: 40%;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 120px 120px 0 120px;
+  border-color: rgba(255, 255, 255, 0.5) transparent transparent transparent;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
 }
-.comentario{
-    font-family: 'Roboto', sans-serif;
-    color: #9B9595;
-    padding-left: 30px;
-    margin-top: 30px;
+.snip1401 h3,
+.snip1401 p {
+  line-height: 1.5em;
+  -webkit-transform: translateX(-30px);
+  transform: translateX(-30px);
+  margin: 0;
 }
-.comentario1{
-    font-family: 'Roboto', sans-serif;
-    color: #9B9595;
-    padding-left: 30px;
-    margin-top: 54px;
+.snip1401 h3 {
+  margin: 0 0 5px;
+  line-height: 1.1em;
+  font-weight: 900;
+  font-size: 1.4em;
+  opacity: 0.75;
 }
-.adm{
-    font-family: 'Dosis', sans-serif;
-    font-size: 25px;
-    font-weight: bold;
-    color: #000000;    
+.snip1401 p {
+  font-size: 0.8em;
 }
-.comenta{
-    padding-top: 5px;
+.snip1401 i {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px 30px;
+  font-size: 44px;
+  color: #ffffff;
+  opacity: 0;
 }
+.snip1401 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.snip1401:hover img,
+.snip1401.hover img {
+  zoom: 1;
+  filter: alpha(opacity=70);
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+}
+.snip1401:hover:after,
+.snip1401.hover:after,
+.snip1401:hover figcaption,
+.snip1401.hover figcaption,
+.snip1401:hover i,
+.snip1401.hover i {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}  
 
 
 /* tablete*/
 @media (max-width:1169px){
-	.banner_home{
-   		 width: 1169px; 
-		height: 300px;
-			
-	}
-	.container_oferta{
-		width: 1169px;
-		background-color: white;
-		
+
+	
+    .dica_informativa{
+        width: 250;
+        position: relative;
+        right: 285px;
     }
-    .frase_dicas{
-		font-size: 60px;
+    .tod_informativo{
+        width: 50px;
     }
-    .img_frase{
-        width: 600px;
-        text-align: center;
-    }
-	.oferte{
-   		margin-left: 25%;
-			
-	}
-	.conteudo{
-		width: 1000px;
-		align-content: center;
-		display: flex;
-	}
 	.informativo{
-		font-size: 50px;
-		width: 800px;
-		margin-left: 10%;
-	}	
+		font-size: 20px;    
+    }	
+    .img_1home{
+        width: 400px;
+        margin: 92px;
+    }
+    .conju_frase{
+        width: 900px;
+    }
 	.alimentos{
 		width: 250px;
-	}	
-	
-	
-    
+    }
+    .ref_home{
+        width: 300px;
+    }	 
+    .frase_referencia_home{
+        margin: 10px;
+        padding: 0p;
+    }
+    .Frase_fastrade{
+        margin: 0;
+    }
 }
-
-
-
 
 @media (max-width: 767px){
-	.banner_home{
-   		width: 500px; 
-		height: 250px;
-	}
-	.frase_dicas{
-		font-size: 40px;
+
+    .dica_informativa{
+        width: 400px;
+        height: 270px;
+        display: block;
+        margin: 20px;
+        /* margin-left: 10px; */
     }
-    .img_frase{
+    .tod_informativo{
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        margin-right: 120px;
+       
+        /* margin-left: 10px; */
+    }
+	.informativo{
+		font-size: 20px;
+    }	
+    /* .global_informativa{
+        width: 50px;
+    }
+    .frase_informativa{
+        font-size: 15px;
+    }
+	.alimentos{
+		width: 250px; 
+	}	*/
+	.home_card_pro{
+        width: 400px;
+        height: 100px;
+    }
+    .frase_dicas{
+        font-size: 25px;
+    }
+    .img_1home{
+        width: 200px;
+        margin: 32px;
+    }
+     .ref_home{
         width: 300px;
     }
-    .container_oferta{
-		width: 767px;
-		background-color: white;
-	}
-	.oferte{
-   		margin-left: 10%;
-		font-size: 30px;
-		width: 300px;
-	}
-	.conteudo{
-		width: 550px;
-			
-	}
-	.informativo{
-		font-size: 25px;
-		width: 450px;
-		margin-left: 20px;
-		
-	}	
-	
-	.alimentos{
-		width: 200px;
-			
-	}
-	.descricao{
-		font-size: 15px;
-		width: 100px;
-		
-	}
-	.vermelho{
-		font-size: 15px;
-		width: 100px;
-	}
-	.img_home{
-		width: 100px;
-		height: 150px;
-		margin:auto;
-		
-	}
-	.espaco_comentario{
-		display: flex;
-		flex-direction: column;
-	}
-	.img_comentario{
-		left: 12px;
-		position: relative;
-	}
-	.img_comentario2{
-		top: -200px;
-		position: relative;
-		left: 8px;
-}
-	.img_caixa{
-		top:-390px;
-		position: relative;
-		
-	}
-}
-
-
-
-
-
-@media (max-width: 767px){
-	.banner_home{
-   		width: 500px; 
-		height: 250px;
-	}
-	.frase_dicas{
-		font-size: 40px;
+    .Frase_fastrade{
+        font-size: 20px;
+    }	 
+    .frase_referencia_home{
+        font-size: 15px;
+        width: 200px;
     }
-    .img_frase{
-        width: 300px;
+    .conjunto_color  {
+        height: 530px;
     }
-    .container_oferta{
-		width: 767px;
-		background-color: white;
-	}
-	.oferte{
-   		margin-left: 10%;
-		font-size: 30px;
-		width: 300px;
-	}
-	.conteudo{
-		width: 550px;
-			
-	}
-	.informativo{
-		font-size: 25px;
-		width: 450px;
-		margin-left: 20px;
-		
-	}	
-	
-	.alimentos{
-		width: 200px;
-			
-	}
-	.descricao{
-		font-size: 15px;
-		width: 100px;
-		
-	}
-	.vermelho{
-		font-size: 15px;
-		width: 100px;
-	}
-	.img_home{
-		width: 100px;
-		height: 150px;
-		margin:auto;
-		
-	}
-	.espaco_comentario{
-		display: flex;
-		flex-direction: column;
-	}
-	.img_comentario{
-		left: 12px;
-		position: relative;
-	}
-	.img_comentario2{
-		top: -200px;
-		position: relative;
-		left: 8px;
-}
-	.img_caixa{
-		top:-390px;
-		position: relative;
-		
-	}
 }

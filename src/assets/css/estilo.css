@@ -21,7 +21,7 @@ header {
     align-items: center;
 }
 
-nav {
+/* nav {
     padding-top: 10px;
 }
 
@@ -40,7 +40,7 @@ nav a {
 nav li {
     list-style: none;
     font-size: 18px;
-}
+} */
 
 .pesquisa {
     background-color: white;
@@ -95,8 +95,8 @@ footer {
     -webkit-box-shadow: 5px 5px 30px -15px rgba(204, 204, 204, 1);
     -moz-box-shadow: 5px 5px 30px -15px rgba(204, 204, 204, 1);
     box-shadow: 5px 5px 30px -15px rgba(204, 204, 204, 1);
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -111,7 +111,7 @@ footer {
     margin: 10px;
 }
 
- button {
+.button_e {
      width: 50%;
     margin: 50px auto;
     font-size: 1.2em;
@@ -124,11 +124,11 @@ footer {
     justify-content: center;
     border-radius: 20px;
  }
- label{
+ /* label{
      width: 100%;
      margin-bottom: 10px;
- }
- .card input {
+ } */
+ input.card {
     background-color: white;
     border-radius: 8px;
     width: 300px;
@@ -136,7 +136,7 @@ footer {
     border: solid 1px black;
     padding-left: 10px;
  }
- h3{
+ .h3{
     font-family: 'Dosis', sans-serif;
  
     
@@ -158,7 +158,7 @@ footer {
     display: flex;
     flex-direction: column;
 }
-.card input{
+input.card{
     height: 50px;
     border-style: 1px outset #707070;
 

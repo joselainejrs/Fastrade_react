@@ -1,27 +1,30 @@
 import React, { Component } from 'react';
 
 //Aqui importamos imagens
-import logo_banner from '../../assets/img/logo_banner.png';
 import usuarioPng from '../../assets/img/usu_ario.png';
 import shopPng from '../../assets/img/shop.png';
 import negociarPng from '../../assets/img/nego_ciar.png';
 import documentoPng from '../../assets/img/document_home.png';
 import ClientePng from '../../assets/img/cliente_home.png';
 import bannerFinal from '../../assets/img/img_2.png';
-import logoFinal from '../../assets/img/logo_img2.png';
-import CirculaPng from '../../assets/img/circulo_comentario.png';
+import Rodape from '../../components/rodape/Rodape.js'
+
+import compras from '../../assets/img/photo-1516321318423-f06f85e504b3.jpeg'
 
 //importa Link  
 import { Link } from 'react-router-dom';
 
 //importamos a css da home
+import Cabecalho from '../../components/cabecalho/cabecalho';
 import Home from '../../assets/css/Home.css'
+import { parseJwt } from '../../services/auth';
+import MenuMobile from '../../components/menuMobile/menuMoile';
 
 
-//Aqui importamos paginas
+// Aqui importamos paginas
 
 
-//Aqui temos o ciclo de vida!
+// Aqui temos o ciclo de vida!
 class App extends Component {
   UNSAFE_componentWillMount() {
     console.log('Carregando');
@@ -59,37 +62,43 @@ class App extends Component {
 
   render() {
     return (
+
       <div className="App" >
+        <Cabecalho></Cabecalho>
+
+        {/* <MenuMobile/> */}
         <div className="tod_home">
-          <div className="estrut_frase">
+
+        </div>
+
+        <main>
+        <div className="conjunto_color">
+          <div className="home_card_pro">
             <p className="frase_dicas">
               Sem tempo para fazer Compras?<br />
               seja rápido, seja  FASTRADE</p>
-            <Link to="/#" className="botao_dicas">Conheça nossa loja</Link>
           </div>
-        </div>
-        <main>
-          <div className="container_oferta">
-            <p className="oferte">Produtos em ofertas</p>
-            <div className="conteudo">
+        
+            <div className="conju_frase">
 
+              <div>
+                <img src={compras} alt="" className="img_1home" />
+              </div>
 
-              {
-                this.state.listaNomeOferta.map(
-                  function (oferta) {
-                    return (
-                      <div key={oferta.idOferta} className="alimentos">
-                        <img src={"http://localhost:5000/" + oferta.fotoUrlOferta} className="img_home" alt="Imagem de Arroz" />
-                        <p>{oferta.idProdutoNavigation.nome}</p>
-                        <p className="vermelho">30% Desconto</p>
-                      </div>
-                    );
-                  }
-                )
-              }
+              <div className="gl_frase">
+                <h6 className="Frase_fastrade">O que é Fastrade?</h6>
 
+                <div className="ref_home">
+                  <p className="frase_referencia_home">FASTRADE é um site de intermediação entre consumidores e pequenas ou grandes comerciantes,
+                   que buscam ofertar seus produtos, sejam eles próximo da data de validade ou não, mas com menores preço e de otima qualidade.</p>
+                </div>
+              </div>
             </div>
-          </div>
+          </div>      
+
+
+          {/* <div className="destaque">
+            <img src={bannerFinal} alt="imagem da fruta flaboesa no pote" className="img_destaque" /> </div> */}
 
           <div className="tod_informativo">
             <div className="dica_informativa">
@@ -106,7 +115,7 @@ class App extends Component {
               <div className="global_informativa">
                 <div className="caixa_informativa">
                   <div><img src={shopPng} alt="Imagem de shopping" className="img_informativa" /></div>
-                  <div className="frase_informativa"><p> Visite nossa página produtos de produtos. E aproveite para comprar!</p></div>
+                  <div className="frase_informativa"><p> Visite nossa página produtos de produtos.</p></div>
                 </div>
               </div>
 
@@ -145,15 +154,10 @@ class App extends Component {
             </div>
           </div>
 
-          <div className="destaque">
-            <img src={bannerFinal} alt="imagem da fruta flaboesa no pote" className="img_destaque" /> </div>
 
-          <div>
-            <div><p className="frase_destaque">Sua melhor plataforma de venda</p></div>
-            <div><p className="frase_destaque">Produtos com menores valores</p></div>
-          </div>
         </main>
-      </div>
+        <Rodape></Rodape>
+      </div >
     );
   }
 }

@@ -1,0 +1,271 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card_login{
+    width: 570px;
+    
+    background-color: var(--branco);
+    padding: 80px 40px;
+    margin: 40px 0px;
+    border-radius: 4px;
+    -webkit-box-shadow: 5px 5px 30px -15px rgba(204,204,204,1);
+    -moz-box-shadow: 5px 5px 30px -15px rgba(204,204,204,1);
+     box-shadow: 5px 5px 30px -15px rgba(204,204,204,1);
+     margin: auto;
+     font-family: 'Dosis', sans-serif;
+}
+
+.conteudo{
+    text-align: center;
+    
+}
+
+.logintudo{
+    margin-top: 50px;
+}
+
+.conteudotodo{
+    text-align: center;
+    padding-right: 66px;
+}
+
+.botao{
+	width: 100%;
+	font-size: 20px;
+	margin: auto;
+	margin-left: 45px;
+	margin-top: 30px;
+}
+.tipo{
+    font-weight: bold;
+}
+.tipodeusuario2{
+    flex-direction: column;
+}
+
+.boto{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card-cadastro{
+    width: 100%;
+}
+
+.card-cadastro p {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.tipodeusuario{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+	
+}
+.caixabotao{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.acesso button{
+    width: 200px;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #BC3908;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#form_cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Dosis', sans-serif;
+    font: bolder;
+}
+
+.cadastro{
+    font-size: 0.5em;
+}
+
+h1{
+    font-size: 1.5em;
+
+}
+
+.conta{
+    display: flex;
+    justify-content: center;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+
+.login{
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 10px;
+    text-align: left;
+    margin-left: 7px;
+}
+
+.linkemailsenha{
+    text-decoration: underline;
+    margin-left: 300px;
+	margin-top:0px;
+}
+
+.botaologar {
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+    align-items: center;
+    margin-top: 40px;
+    padding-left: 55px;
+}
+
+.botaoface{
+    height: 50px;
+}
+
+.botaogoogle {
+    height: 74px;
+}
+
+.botaolink{
+    padding: 10px;
+}
+
+.sub_menu { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    padding-top: 10px;
+}
+
+nav ul {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Dosis', sans-serif;
+}
+
+nav li {
+    list-style: none;
+    font-size: 18px;
+}
+
+.pesquisa {
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.txt_busca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 260px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.btn_busca {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 100px;
+}
+
+.contato {
+    line-height: 1.5;
+}
+
+.localizacao {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.todo {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media(max-width:1169px){
+    .container{
+        width: 720px;
+    }
+}
+
+@media(max-width:768px){
+    .container{
+        width: 150px;
+        margin: auto;
+    }
+
+    .card_login{
+        width: 350px;
+        margin: auto;
+    }
+
+    .card{
+        width: 350px;
+       
+    }
+    .caixabotao{
+        margin: auto;
+        margin-left: 30px;
+    }
+    .btn_login_c{
+     margin: 10px;
+     
+ }
+ .conta{
+     font-size:30px ;
+ }
+ 
+
+    /*.botaolink{
+        width: 50px;
+        height: 50px;   
+    }*/
+}
+

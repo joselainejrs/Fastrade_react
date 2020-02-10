@@ -1,0 +1,158 @@
+/* página de perfil do usuario */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+:root{
+    --vinho:#941B0C;
+    --amaelo:#DAA520;
+    --peto:#1D1E18;
+    --marrom_escuro:#1D1E18;
+    --verde:#2E2422;
+    --laranja:#BC3908;
+    --branco:#FFFFFF;
+}
+.top_user{
+	margin: auto;
+	width: 400px;
+
+}
+.cabeca_adm{
+	width: 200px;
+	padding: 10px;    
+}
+#PerfilUsuario-lista{
+	margin: auto;
+	width: 500px;
+}
+.perfil h1{
+	padding-bottom: 15px;
+	text-align: center;
+	color: #BC3908;
+	font-weight: bold;
+	font-family:'Dosis', sans-serif;
+}
+.barra_user{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px;
+    
+}
+.conj_barra{
+	margin-left: 120px;
+	margin: auto;	 
+
+}
+
+.opcoes_perfil{
+	font-family:'Dosis', sans-serif;
+	font-size: 20px;
+	padding-top: 10px;
+	margin: auto;	 
+
+}
+a.opcoes_perfil{
+	text-decoration: none;	
+	font-weight: bold;
+	color:black	;
+}
+a.opcoes_perfil:hover{
+	border: 2px solid #BC3908 ;
+	border-radius: 3px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+.titulo_user{
+	margin: auto;
+
+}
+.titulo_usuario{
+	font-family:'Dosis', sans-serif;
+	font-size: 30px;
+	color: #BC3908;
+	font-weight: bold;
+	text-align: center;
+	margin-right: 50px;
+	margin-top: 40px;
+	
+}
+.dados_perf{
+	display: flex;
+	align-content: space-between;
+	padding: 20px;
+	margin: auto;
+}
+
+.img_usuario{
+	margin: auto;
+	width: 100px;
+}
+.img_user{
+	margin: auto;
+	position: relative;
+	left: 150px;
+}
+.form_perfil{
+	margin: auto;
+}
+.form_perfil{
+	margin: auto;
+	width: 400px;
+
+}
+.usuario{
+	height: 100px;
+	margin: auto;
+}
+/* .user_usuario{
+	font-family:'Dosis', sans-serif;
+	font-size: 35px;
+	padding: 5px;	
+	color: #220901;
+	align-items: flex-start;
+} */
+.dados_principais{
+	display: flex;
+	align-content: space-between;
+}
+
+/* @media(max-width:1169px){
+	.top{
+		margin: auto;
+	}
+	.titulo_usuario{
+		font-size: 20px;
+		margin: auto;
+		width: 200px;
+	}
+	.opcoes_perfil{
+		font-size: 20px;	
+	}
+} */
+
+@media(max-width:768px){
+
+	.top{
+		margin: auto;
+	}
+	.titulo_usuario{
+		font-size: 20px;
+		margin: auto;
+		width: 200px;
+	}
+	.opcoes_perfil{
+		font-size: 20px;	
+	}
+ 	.img_user{
+	 margin: auto;
+	 padding-right: 100px; ;
+ }
+	.usuario{
+	width: 60px;
+	height: 70px;
+	}
+	
+}

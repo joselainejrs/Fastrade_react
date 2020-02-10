@@ -1,0 +1,195 @@
+.item_input{
+	margin:35px;
+}
+.estilo_input{
+	border: 0;
+	width: 350px;
+	height: 20px;
+	border-bottom: 2px solid #BC3908;
+	border-radius: 10px;
+	padding: 1px;
+	background: transparent;
+	color: #808080;
+	text-align: left; 	
+}
+.estilo_inputadm{
+	border: 0;
+	width: 350px;
+	height: 20px;
+	border-bottom: 2px solid #BC3908;
+	border-radius: 10px;
+	padding: 1px;
+	background: transparent;
+	color: #808080;
+	text-align: left; 	
+}
+/* inputs menores */
+
+.item_input2{
+	margin:15px;
+	margin-left: 20px;	
+}
+.estilo_input2{	
+	border: 0;
+	width: 220px;
+	height: 25px;
+	border-bottom: 2px solid #BC3908;
+	border-radius: 10px;	
+	padding: 1px;
+	background: transparent;
+	color: #808080;
+	text-align: left;
+}
+/*---------------------------------------------------------------------------------------------------*/
+/* cadastro de cliente*/
+.item_inputcliente2{
+	margin:15px;
+	margin-left: 20px;
+}
+.estilo_inputcadastro{
+	border: 0;
+	width: 350px;
+	height: 20px;
+	border-bottom: 2px solid #BC3908;
+	border-radius: 10px;
+	padding: 1px;
+	background: transparent;
+	color: #808080;
+	text-align: left; 
+}
+.estilo_inputcadastro2{
+	border: 0;
+	width: 220px;
+	height: 25px;
+	border-bottom: 2px solid #BC3908;
+	border-radius: 10px;	
+	padding: 1px;
+	background: transparent;
+	color: #808080;
+	text-align: left;
+	
+}
+/*---------------------------------------------------------------------------------------------------*/
+/* perfil fornecedor e admnistrador*/
+.item_inputperfil2{
+	margin:15px;
+	margin-left: 20px;	
+}
+
+.estilo_inputperfil{
+	border: 0;
+	margin: 10px;
+	width: 350px;
+	height: 20px;
+	border-bottom: 2px solid #BC3908;
+	border-radius: 10px;
+	padding: 1px;
+	background: transparent;
+	color: #808080;
+	text-align: left; 	
+}
+
+.estilo_inputperfil2{
+	border: 0;
+	margin: 10px;
+	width: 220px;
+	height: 25px;
+	border-bottom: 2px solid #BC3908;
+	border-radius: 10px;	
+	padding: 1px;
+	background: transparent;
+	color: #808080;
+	text-align: left;
+}
+@media(max-width:768px){
+	
+}
+/*---------------------------------------------------------------------------------------------------*/
+/* cadastro de produto*/
+.estilo_inputproduto2{
+	border: 0;
+	width: 220px;
+	height: 25px;
+	border-bottom: 2px solid #BC3908;
+	border-radius: 10px;	
+	padding: 1px;
+	background: transparent;
+	color: #808080;
+	text-align: left;
+}
+
+.estilo_input3{	
+	border: 0;
+	width: 150px;
+	height: 25px;
+	border-bottom: 2px solid #BC3908;
+	border-radius: 10px;	
+	padding: 1px;
+	background: transparent;
+	color: #808080;
+	text-align: left;
+}
+.estilo_input3 select{	
+	border: 0;
+	width: 150px;
+	height: 25px;
+	border-bottom: 2px solid #BC3908;
+	border-radius: 10px;	
+	padding: 1px;
+	background: transparent;
+	color: #808080;
+	text-align: left;
+ }
+/*---------------------------------------------------------------------------------------------------*/
+/* INPUT IMAGENS */
+
+ .input_imagens {
+	border: 0;
+	width: 135px;
+	height: 33px;
+	border: 2px solid #BC3908;
+	border-radius: 10px;
+	margin-bottom: 20px;	
+	
+	background-color: none;
+
+ }
+@media(max-width:768px){
+   .estilo_inputadm{
+	   width: 130px;
+	   position: relative;
+	   right: 210px;
+   }
+   .estilo_input2{
+	width: 130px;
+	position: relative;
+	right: 210px;
+}
+}
+/*---------------------------------------------------------------------------------------------------*/
+/* INPUT  do login */
+.item_inputlogin{
+	margin:35px;
+}
+.estilo_inputlogin{
+	border: 0;
+	width: 350px;
+	height: 20px;
+	border-bottom: 2px solid #BC3908;
+	border-radius: 10px;
+	padding: 1px;
+	background: transparent;
+	color: #808080;
+	text-align: left; 	
+}
+@media(max-width:768px){
+	.item_inputlogin{
+		width: 130px;
+		padding: 10px;
+		margin: auto;
+	}
+	.estilo_inputlogin{
+		width: 220px;
+		margin: auto;
+	}
+ }

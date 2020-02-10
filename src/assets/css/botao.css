@@ -1,0 +1,83 @@
+/* link */
+
+/* button */
+
+button.btn_botao:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #BC3908;
+}
+
+button.botao_modal {
+    color: #BC3908;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border: white;
+    border: 1px solid #BC3908;
+    border-radius: 10px;
+    width: 120px;
+}
+
+button.botao_cadastrar {
+    color: #BC3908;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border: white;
+    border: 1px solid #BC3908;
+    border-radius: 10px;
+    width: 120px;
+}
+
+/* menor   */
+
+button.botao_cadastrar2 {
+    color: #BC3908;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border: white;
+    border: 1px solid #BC3908;
+    border-radius: 10px;
+    width: 100px;
+}
+
+/* Botão de login   */
+
+.botao_cadastrarlogin{
+    color: #BC3908;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border: white;
+    border: 1px solid #BC3908;
+    border-radius: 10px;
+    width: 120px;
+}
+@media(max-width:768px){
+	.botao_cadastrarlogin{
+        width: 60px;
+        font-size: 15px;
+		margin: auto;
+	}
+	
+ }
+
+ /* cadastro produto*/
+ button.botao_cadastrarproduto {
+    color: #BC3908;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border: white;
+    border: 1px solid #BC3908;
+    border-radius: 10px;
+    margin-top:40px ;
+    width: 100px;
+}

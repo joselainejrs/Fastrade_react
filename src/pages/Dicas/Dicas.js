@@ -6,7 +6,7 @@ import Pudim from '../../assets/img/pudim.png';
 import Doce from '../../assets/img/docemaracuja.png';
 import Bolo from '../../assets/img/bolo.png';
 import Farofa from '../../assets/img/farofa.png';
-import Brigadeiro from '../../assets/img/brigadeiro.png';
+import Brigadeiro from '../../assets/img/Brigadeiro.jpg';
 import Creme from '../../assets/img/cremecouve.png';
 import Pate from '../../assets/img/patealho.png';
 import '../../components/rodape/Rodape';
@@ -15,84 +15,89 @@ import '../../components/rodape/Rodape';
 import Rodape from '../../components/rodape/Rodape';
 
 //link
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 class Dicas extends Component {
     render() {
         return (
             <div>
-                <Cabecalho/>
+                <Cabecalho />
                 <div className="banner_dicas">
                     <p>DICAS</p>
                 </div>
                 {/* // <!-- <img src="imagens/banner.png"> --> */}
-                <div class="frase">
-                    <p>Não sabe o que fazer com os restos dos alimentos???</p>
-                    <p>Segue algumas dicas!!</p>
+                <div className="frase">
+                    <div >
+                    <p className="frase_titulo">Não sabe o que fazer com os restos dos alimentos???</p>
+                    <p className="frase_titulo">Segue algumas dicas!!</p>
+                    </div>                       
                 </div>
 
-                <div class="container_pai">
-                    <div>
-                        <Link to="/Receitas"><img src={Macarrao} class="img" /></Link>
-                        <div class="nome">
-                            <p class="titulo receita"> Macarrão de Talos</p>
+                <div className="container_pai">
+
+                    <div className="container_card">
+                        <div className="card1">
+                            <Link to="/Receitas"><img src={Macarrao} className="img_dicas" /></Link>
+                            <div className="nome">
+                                <p className="titulo_receita"> Macarrão de Talos</p>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <Link to="/Pudim"><img src={Pudim} class="img" /></Link>
-                        <div class="nome">
-                            <p class="titulo receita">Pudim de Pão Amanhecido </p>
+                        <div className="card1">
+                            <Link to="/Pudim"><img src={Pudim} className="img_dicas" /></Link>
+                            <div className="nome">
+                                <p className="titulo_receita">Pudim de Pão Amanhecido </p>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <Link to="/Arroz"><img src={Arroz} class="img" /></Link>
-                        <div class="nome">
-                            <p class="titulo receita">Arroz Brasileirinho</p>
+                        <div className="card1">
+                            <Link to="/Arroz"><img src={Arroz} className="img_dicas" /></Link>
+                            <div className="nome">
+                                <p className="titulo_receita">Arroz Brasileirinho</p>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <Link to="/Doce de Casca de Maracujá"><img src={Doce} class="img" /></Link>
-                        <div class="nome">
-                            <p class="titulo receita">Doce de Casca de
+
+                        <div className="card1">
+                            <Link to="/Doce de Casca de Maracujá"><img src={Doce} className="img_dicas" /></Link>
+                            <div className="nome">
+                                <p className="titulo_receita">Doce de Casca de
                         Maracujá</p>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <Link to="/Bolo de casca de abóbora"><img src={Bolo} class="img" /></Link>
-                        <div class="nome">
-                            <p class="titulo receita">Bolo de Casca de
+                        <div className="card1">
+                            <Link to="/Bolo de casca de abóbora"><img src={Bolo} className="img_dicas" /></Link>
+                            <div className="nome">
+                                <p className="titulo_receita">Bolo de Casca de
                         Abóbora</p>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <Link to="/farofa de casca de melão"><img src={Farofa} class="img" /></Link>
-                        <div class="nome">
-                            <p class="titulo receita">Farofa de Casca de
+                        <div className="card1">
+                            <Link to="/farofa de casca de melão"><img src={Farofa} className="img_dicas" /></Link>
+                            <div className="nome">
+                                <p className="titulo_receita">Farofa de Casca de
                         Melão</p>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <Link to="/brigadeiro de casca de banana"> <img src={Brigadeiro} class="img" /></Link>
-                        <div class="nome">
-                            <p class="titulo receita">Brigadeiro de Casca
-                        de Banana</p>
+                        <div className="card1">
+                            <Link to="/Brigadeiro de casca de banana"> <img src={Brigadeiro} className="img_dicas" /></Link>
+                            <div className="nome">
+                                <p className="titulo_receita">Brigadeiro de Banana</p>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <Link to="/creme de couve-flor"><img src={Creme} class="img" /></Link>
-                        <div class="nome">
-                            <p class="titulo receita">Creme de Couve - Flor</p>
+                        <div className="card1">
+                            <Link to="/creme de couve-flor"><img src={Creme} className="img_dicas" /></Link>
+                            <div className="nome">
+                                <p className="titulo_receita">Creme de Couve - Flor</p>
 
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <Link to="/patê de alho poró"><img src={Pate} class="img" /></Link>
-                        <div class="nome">
-                            <p class="titulo receita">Patê de Alho Poró</p>
+                        <div className="card1">
+                            <Link to="/patê de alho poró"><img src={Pate} className="img_dicas" /></Link>
+                            <div className="nome">
+                                <p className="titulo_receita">Patê de Alho Poró</p>
 
+                            </div>
                         </div>
                     </div>
-                    <Rodape/>
+                    <Rodape />
                 </div>
             </div>
         );
